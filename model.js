@@ -1,20 +1,16 @@
 const table = require("@makeitrealcamp/db-mock")
 
 table.insert({
-  name: "Arto Hellas",
-  number: "040-123456"
+  name: 'Recycled Steel Sausages',
+  color: 'White',
+  category: 'Music',
+  price: '$386.00',
 });
 table.insert({
-  name: "Ada Lovelace",
-  number: "39-44-5323523"
-});
-table.insert({
-  name: "Dan Ambramov",
-  number: "12-43-234345"
-});
-table.insert({
-  name: "Mary Poppendick",
-  number: "39-236423122"
+  name: 'Fantastic Frozen Shirt',
+  color: 'Pink',
+  category: 'Clothing',
+  price: '$20.00',
 });
 
 function getAllData() {
@@ -35,9 +31,14 @@ function addData (data) {
   table.insert(data);
 }
 
+function updateData (data) {
+  table.update(data);
+}
+
 module.exports = {
   getAllData,
   getDataById,
   deleteDataById,
-  addData
+  addData,
+  updateData
 }
