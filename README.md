@@ -15,7 +15,7 @@ This is a solution to the mission in pair number 8 - HTML - project of the Make 
 
 ### Instructions to request to the API "Product manager server"
 
-In this API rest is avaible the CRUD funtionalities, you can do the following request:
+In this API rest is available the CRUD functionalities, you can do the following requests:
 
 - GET --> Get all registers:
 
